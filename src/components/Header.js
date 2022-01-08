@@ -1,11 +1,13 @@
-export const Header = ({ currentScore , bestScore }) => {
+import "../styles/Header.css";
 
-    return (
-        <header>
-            <h1>Memory game!</h1>
-            <div>
-                <p>Current score: {currentScore}</p>
-            </div>
-        </header>
-    )
-}
+export const Header = ({ curScore, bestScore }) => {
+  return (
+    <header id="header">
+      <h1>Memory game!</h1>
+      <div id="scores-container">
+        <p className="score">Best score: {bestScore}</p>
+        <p className="score">Current score: {curScore}</p>
+      </div>
+    </header>
+  );
+};
