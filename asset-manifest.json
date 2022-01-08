@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/leandrob0/memory-game/static/css/main.603811e0.css",
+    "main.js": "/leandrob0/memory-game/static/js/main.250cb785.js",
+    "static/media/elephant.png": "/leandrob0/memory-game/static/media/elephant.25d278754e80795c4b5d.png",
+    "static/media/chicken.png": "/leandrob0/memory-game/static/media/chicken.f7fd4e43108a736fc064.png",
+    "static/media/anaconda.png": "/leandrob0/memory-game/static/media/anaconda.207dda1e652242996529.png",
+    "static/media/rabbit.png": "/leandrob0/memory-game/static/media/rabbit.58850b6aa9df7936961b.png",
+    "static/media/dog.png": "/leandrob0/memory-game/static/media/dog.58199895fdd378217f57.png",
+    "static/media/goat.png": "/leandrob0/memory-game/static/media/goat.7150508f4bd8e89f2dd3.png",
+    "static/media/fox.png": "/leandrob0/memory-game/static/media/fox.15216a47081814d8d07d.png",
+    "static/media/parrot.png": "/leandrob0/memory-game/static/media/parrot.cbba8d541b9c651ca080.png",
+    "static/media/pigeon.png": "/leandrob0/memory-game/static/media/pigeon.7cb5aae1243e3aece50b.png",
+    "index.html": "/leandrob0/memory-game/index.html",
+    "main.603811e0.css.map": "/leandrob0/memory-game/static/css/main.603811e0.css.map",
+    "main.250cb785.js.map": "/leandrob0/memory-game/static/js/main.250cb785.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.603811e0.css",
+    "static/js/main.250cb785.js"
+  ]
+}
