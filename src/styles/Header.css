@@ -5,3 +5,7 @@
 
   background-color: rgb(110, 138, 94);
 }
+
+.animate__heartBeat {
+  --animate-duration: 1s;
+}

@@ -36,12 +36,13 @@ const App = () => {
   const [clickedAnimals, setClickedAnimals] = useState([]);
   const [curScore, setCurScore] = useState(0);
   const [bestScore, setBestScore] = useState(0);
+  const [lost, setLost] = useState(0);
 
   useEffect(() => {
     let copy = [...animals];
     const shuffledArray = LogicModule.shuffleArray(copy);
     setAnimals(shuffledArray);
-  // eslint-disable-next-line react-hooks/exhaustive-deps
+    // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [clickedAnimals]);
 
   const handleClick = (e) => {
@@ -63,16 +64,17 @@ const App = () => {
       setClickedAnimals(clickedAnimals.concat(id));
       setCurScore(curScore + 1);
       if (curScore >= bestScore) setBestScore(bestScore + 1);
+      setLost(0);
     } else {
-      alert("already clicked");
       setCurScore(0);
       setClickedAnimals([]);
+      setLost(1);
     }
   };
 
   return (
     <>
-      <Header curScore={curScore} bestScore={bestScore} />
+      <Header curScore={curScore} bestScore={bestScore} lost={lost} />
       <Content animals={animals} handleClick={handleClick} />
     </>
   );
