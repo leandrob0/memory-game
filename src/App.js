@@ -39,6 +39,10 @@ const App = () => {
   const [lost, setLost] = useState(0);
 
   useEffect(() => {
+    document.title = "Memory"
+  }, [])
+
+  useEffect(() => {
     let copy = [...animals];
     const shuffledArray = LogicModule.shuffleArray(copy);
     setAnimals(shuffledArray);
