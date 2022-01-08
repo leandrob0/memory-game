@@ -41,6 +41,7 @@ const App = () => {
     let copy = [...animals];
     const shuffledArray = LogicModule.shuffleArray(copy);
     setAnimals(shuffledArray);
+  // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [clickedAnimals]);
 
   const handleClick = (e) => {
