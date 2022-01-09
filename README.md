@@ -10,7 +10,7 @@ This project is done to practice and apply knowledge in React with hooks, compon
 
 ```
 git clone https://github.com/leandrob0/memory-game
-cd cv-project
+cd memory-game
 npm install
 npm start
 ```
